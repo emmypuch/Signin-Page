@@ -13,8 +13,7 @@
     margin: 13px;
   }
 
-  a {
-    text-decoration: none;
+  h2 {
     color: #1b4a40;
     font-size: 1.5rem;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -33,7 +32,6 @@
   }
 
   section.signin-container {
-    display: flex;
     width: 70%;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -43,10 +41,9 @@
   }
 
   .signin-title {
-    display: flex;
-    /* margin: 0; */
     color: #1b4a40;
-    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -57,18 +54,19 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: -60px;
   }
 
   div.form input {
-    /* margin-bottom: 15px; */
     background-color: transparent;
     border-bottom: 2px solid #1b4a40;
     border-top: none;
     border-left: none;
     border-right: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 0.7rem;
     width: 200px;
+    color: #1b4a40;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -76,6 +74,7 @@
   div.form label {
     font-size: 1.2rem;
     padding-top: 20px;
+    color: #1b4a40;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -86,10 +85,28 @@
     background-color: #1b4a40;
     color: #a7cfc1;
     outline: none;
-    border: 1px soild #a7cfc1;
+    border: none;
     border-radius: 5px;
     font-size: 1rem;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    color: #1b4a40;
+    font-size: 1.2rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  footer a {
+    text-decoration: underline;
+    color: #ff6584;
+    font-size: 1.2rem;
   }
 }
