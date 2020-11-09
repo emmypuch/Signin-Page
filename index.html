@@ -7,33 +7,37 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h2 class="signin-logo">Helplify</h2>
-    </header>
+    <div class="signin-wrapper">
+      <div class="flex-signin">
+        <header>
+          <h2 class="signin-logo">Helplify</h2>
+        </header>
 
-    <section class="banner-area">
-      <div class="banner-image">
-        <img src="images/welcome-img.svg" alt="" />
+        <section class="banner-area">
+          <div class="banner-image">
+            <img src="images/welcome-img.svg" alt="" />
+          </div>
+        </section>
+
+        <section class="signin-container">
+          <h3 class="signin-title">Signin</h3>
+          <div class="form">
+            <form action="">
+              <label for="email">Email</label>
+              <input type="text" placeholder="Enter Email" required />
+              <br />
+              <label for="password">Password</label>
+              <input type="text" placeholder="Password" required />
+            </form>
+            <button type="signin">Signin</button>
+          </div>
+        </section>
+
+        <footer>
+          Inspired by&nbsp;
+          <a href="https://www.uplabs.com/" target="_blank"> UpLabs</a>
+        </footer>
       </div>
-    </section>
-
-    <section class="signin-container">
-      <h3 class="signin-title">Signin</h3>
-      <div class="form">
-        <form action="">
-          <label for="email">Email</label>
-          <input type="text" placeholder="Enter Email" required />
-          <br />
-          <label for="password">Password</label>
-          <input type="text" placeholder="Password" required />
-        </form>
-        <button type="signin">Signin</button>
-      </div>
-    </section>
-
-    <footer>
-      Inspired by&nbsp;
-      <a href="https://www.uplabs.com/" target="_blank"> UpLabs</a>
-    </footer>
+    </div>
   </body>
 </html>

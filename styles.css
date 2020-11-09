@@ -63,7 +63,7 @@
     border-left: none;
     border-right: none;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 0.7rem;
     width: 200px;
     color: #1b4a40;
@@ -114,4 +114,25 @@
 /*Desktop View*/
 
 @media (max-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eef2f7;
+  }
+
+  .signin-wrapper {
+    padding: 0 20px;
+  }
+
+  .flex-signin {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 80vh;
+    -webkit-box-shadow: 0 10px 6px -6px #1f2025;
+    -moz-box-shadow: 0 10px 6px -6px #1f2025;
+    box-shadow: 0 10px 6px -6px #1f2025;
+  }
 }
